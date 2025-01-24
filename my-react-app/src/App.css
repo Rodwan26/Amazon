@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.container{
+  height: 100VH;
+  width: 100vw;
+  flex-direction: column;
+ display: flex;
+ align-items: center;
+    
+}
+.SignIn{
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.input{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.signInForm{
+    border: 1px solid black;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.flexitem{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   margin-top: 20px;
+}
+.search{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+input{
+    width: 93%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+.header{
+    margin: 7px;
+    background: black;
+    padding: 10px;
+    border: 3px black;
+}
+.logo{
+    margin: 7px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+button{
+    width: 93%;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    border: none;
+    border: 1px solid black;
+    margin: 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: orange;
+}
+Button:hover{
+    background-color: rgb(255, 132, 0);
+    cursor: pointer;
+
+}
+p{
+    margin-left: 20px;
+}
